@@ -86,7 +86,8 @@ ul{list-style:none;}
     src: local('NewZelek'),
          url('/fonts/newzelek.ttf') format('truetype'),
          url('/fonts/newzelek.svg') format('svg'),
-         url('/fonts/newzelek.otf') format('otf');
+         url('/fonts/newzelek.otf') format('opentype');
+    unicode-range: U+000-5FF, U+1e00-1fff, U+2000-2300;
     font-weight: normal;
     font-style: normal;
 
@@ -176,10 +177,10 @@ ul{list-style:none;}
 .header .mid-top .menu-top li:hover a{ background:#f1f1f1; color:#009900;}
 .header .mid-top .menu-top li:hover .sep{ background:url(../images/sep.png) no-repeat;}
 	
-.header .mid-top .phones{ margin-top:16px; text-align:center; font-family:'NewZelek'; font-size:18px;}
+.header .mid-top .phones{ margin-top:16px; text-align:center; font-family:'NewZelek'; font-size:16px;}
 .header .mid-top .phones .phone{float: left; margin:0 auto; width:172px; color:#44b444;}
 .header .mid-top .phones .phone span{color:#727170;}
-.header .mid-top .search{margin-top:22px; margin-left:70px;}
+.header .mid-top .search{margin-top:22px; margin-left:5px;}
 .header .mid-top .search .input{ height:30px; width:350px; border:1px solid #44b444; padding-left:10px; color:#aaaaa9;}
 .header .mid-top .search .submit{ cursor:pointer; font-family: 'NewZelek'; color:#fff;border:none; background:url(../images/find.png) no-repeat; width:88px; height:33px; position:absolute; margin:1px 0 0 15px; }
 
