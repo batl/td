@@ -22,7 +22,7 @@ define('DB_NAME', 'td');
 define('DB_USER', 'root');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'cmd');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
